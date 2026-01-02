@@ -48,4 +48,50 @@ nav ul li a:hover{
     margin-top: 120px;
 
 }
+.showabout{
+    background-color:#f4f4f4;
+    padding: 50px 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.showdisc{
+    width: 80%;
+    text-align: justify;
+    display: flex;
+    gap: 30px;
+}
+.showdiscimg{
+    width: 40%;
+}
+.focus{
+    padding: 50px 0px;
+    margin:auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+.focuspoints{
+    display: flex;
+    gap: 120px;
+    width: 80%;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.focuspoint1, .focuspoint2{
+    display: flex;
+    gap: 20px;
+}
+.focuspoints h2{
+    font-size: 80px;
+    color: #787156;
+    margin: 0;
+}
