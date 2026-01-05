@@ -73,6 +73,10 @@ nav ul li a:hover{
   width: 50%;
   object-fit: cover;
 }
+.pimage:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
 .projects .ptext{
   width: 50%;
   font-size: 18px;
@@ -104,6 +108,7 @@ nav ul li a:hover{
   margin-top: 40px;
 }
 
+
 .Project_detail:target{
   display: flex;
 }
@@ -116,6 +121,10 @@ nav ul li a:hover{
 .pd .image{
   width: 50%;
   height: auto;
+}
+.pd .image:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
 .pd .image img{
     width: 100%;
